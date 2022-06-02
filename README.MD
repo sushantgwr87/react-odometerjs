@@ -12,10 +12,11 @@ This package will also install current version(not updated or unfixed) of [Odome
 
 To fix it, just replace all files from ```projectfolder/node-modules/odometer``` with the files from [mikaelhm pull request/repo](https://github.com/mikaelhm/odometer)
 
-After this navigate to odometer in node-modules and remove **jquery** from following files code- odometer.js, odometer.coffee and odometer.min.js.
+After this navigate to odometer in node-modules and remove **jquery** from following files code - odometer.js, odometer.coffee and odometer.min.js.
 ### Demo
 #### File - odometer.js
-#### Original Code 
+#### Original Code
+Find it at the end of code or last lines/paragraph of code in all 3 files
 ```javascript
 if (typeof define === 'function' && define.amd) {
     define(["jquery"], function() {
